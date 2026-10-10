@@ -1,6 +1,6 @@
 // All monetary calculations are performed in integer cents, before any AI call.
 // Papa Parse 5.5.3 is vendored with its MIT license for reproducible offline imports.
-import Papa from '../vendor/papaparse/papaparse.cjs';
+import Papa from '../vendor/papaparse/papaparse.mjs';
 
 export type SalesRow = { date: string; product: string; revenue: number; quantity: number | null; orderId: string | null };
 export type Mapping = { date: string; product: string; revenue: string; quantity: string; unitPrice: string; orderId: string };

@@ -107,7 +107,7 @@ These are synthetic numbers, not a real customer case or commercial result.
 - No background alerts, forecasting, ecommerce integrations or commercial users are claimed.
 - Tests cover money rounding, CSV structure, decimal formats, validation, comparison windows, seasonal baselines, demo expectations and mocked AI responses.
 - Live OpenAI generation has not been verified without a configured key.
-- Production build and type checking are verified. Browser interaction / visual QA was unavailable in the authoring environment.
+- Production build and type checking are verified. A browser walkthrough verified CSV import and mapping, product sorting, anomaly views, and the action checklist.
 
 ## Main source files
 
